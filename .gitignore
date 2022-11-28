@@ -1,0 +1,7 @@
+build/
+dist/
+*.tmp
+.env
+*.gz
+*.whl
+investigate/

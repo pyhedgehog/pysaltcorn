@@ -1,0 +1,3 @@
+[flake8]
+exclude = .git,.venv,investigate,build,dist
+max-line-length = 125
