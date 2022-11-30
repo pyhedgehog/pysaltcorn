@@ -44,7 +44,6 @@ class SaltcornClient:
         u = urllib.parse.urlsplit(url)
         host = ':'.join(str(s) for s in (u.hostname, u.port) if s)
         self.base_url = u._replace(netloc=host, fragment='', query='').geturl()
-        log.warning('SaltcornClient: %r -> %r', url, self.base_url)
         self.auth = SaltcornAuth(u.username, u.password)
         self.session = requests.Session()
 
