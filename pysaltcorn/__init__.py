@@ -5,6 +5,7 @@ import urllib.parse
 import requests
 
 log = logging.getLogger('saltcorn')
+__version__ = "0.1.1"
 
 
 class SaltcornError(RuntimeError):
