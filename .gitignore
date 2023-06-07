@@ -5,3 +5,4 @@ dist/
 *.gz
 *.whl
 investigate/
+__pycache__

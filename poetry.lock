@@ -542,6 +542,14 @@ optional = false
 python-versions = "*"
 
 [[package]]
+name = "types-werkzeug"
+version = "1.0.9"
+description = "Typing stubs for Werkzeug"
+category = "dev"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "typing-extensions"
 version = "4.5.0"
 description = "Backported and Experimental Type Hints for Python 3.7+"
@@ -585,7 +593,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "flake8 (<5)", "pytest-co
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "4754757ac5dc9a9a5ac78b2c8137182d1b024a25d06130a9213f49a90f4c47eb"
+content-hash = "f6e6f6dcf24b0e54094ccaa9b4a98593b4d59011f16939caa25b774a25329b63"
 
 [metadata.files]
 black = []
@@ -640,6 +648,7 @@ tomli = []
 twine = []
 types-requests = []
 types-urllib3 = []
+types-werkzeug = []
 typing-extensions = []
 urllib3 = []
 webencodings = []
