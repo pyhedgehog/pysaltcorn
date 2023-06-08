@@ -5,7 +5,7 @@ This is python client interface for [Saltcorn](https://github.com/saltcorn/saltc
 ## Installation
 
 ```console
-$ pip3 install pysaltcorn==0.3.0
+$ pip3 install pysaltcorn==0.3.1
 ```
 
 ## Usage

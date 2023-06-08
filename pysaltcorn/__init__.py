@@ -17,7 +17,7 @@ except ImportError:
 
 
 log = logging.getLogger("saltcorn")
-__version__ = "0.3.0"
+__version__ = "0.3.1"
 KindType = t.Literal["session", "token", "jwt", "basic", "public"]
 FileDefType = str | t.IO | tuple[str, str | t.IO]
 FilesType = dict[str, FileDefType] | t.Sequence[tuple[str, FileDefType]]
